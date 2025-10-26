@@ -7,6 +7,7 @@ Welcome to the , Smart Motion Control an innovative Arduino-based automation pro
 This project automates the control of electrical devices by detecting human movement or presence. When motion is detected, the system instantly activates a connected load such as a lamp (for my case I am using 230V Tube Light), fan, or any other appliance. After a configurable duration of inactivity, it automatically turns the load off—saving energy, reducing manual effort, and improving overall efficiency.
 
 At the heart of this system lies the Arduino Nano, which processes sensor data and triggers the relay with precise timing. The proximity sensor constantly monitors the environment for motion, while the relay module safely switches high-voltage loads without direct human contact. The circuit is simple, cost-effective, and ideal for beginners looking to explore embedded systems and home automation concepts.
+![Circuit Diagram](schematics/circuit_diagram.png)
 
 
 # Features
@@ -33,6 +34,18 @@ Perfect for smart homes, offices, corridors, washrooms, or any area that benefit
 - Power Supply (5v - 2Amps)
 - AC Load (Tube, Fan , Bulb)
 - Wires (General purpose wiring and single strand wire)
+
+# Working
+Once installed the PIR motion sensor continuously detects for any movement that triggers the load. If there is any movement detected then it immediatedly triggers the load     and when the movement is lost it turns off the load.
+The delay between the movement lost and turning off the load can be adjusted via the sensor potentiometer along with the sensitivity adjustment.
+
+We use normal on-off toggle switch to make on and off a load but here we did the modification instead of using the normal switch. So, we can say that the system is   performing as a switch instead of normal switch. Now, the system can be installed along with the existing system or replacing the exixting system.
+To install it with existing sytem you may require a on-off switch or bed switch or other suitable switch.
+   
+# Additional Feature
+You may find this feature usefull or waste of money. I found it useful.
+I have installed an additional toggle switch to generate two state namely STANDBY MODE & AUTO MODE. When the state is in the AUTO mode the system follows it normal operation as described in #Working but when the state is in the STANDBY mode the load or the lamp stays in ON position and will be in the position untill and unless we cut the supply or load shedding occurs or make it AUTO mode.
+Refer to the #Video Presentation for clear understanding.
 
 # Video Presentation
 Link - [YouTube](https://youtu.be/U4pLusIxolA?si=uFR4TJKkqkDfAYvf)

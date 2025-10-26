@@ -7,7 +7,7 @@ Welcome to the , Smart Motion Control an innovative Arduino-based automation pro
 This project automates the control of electrical devices by detecting human movement or presence. When motion is detected, the system instantly activates a connected load such as a lamp (for my case I am using 230V Tube Light), fan, or any other appliance. After a configurable duration of inactivity, it automatically turns the load off—saving energy, reducing manual effort, and improving overall efficiency.
 
 At the heart of this system lies the Arduino Nano, which processes sensor data and triggers the relay with precise timing. The proximity sensor constantly monitors the environment for motion, while the relay module safely switches high-voltage loads without direct human contact. The circuit is simple, cost-effective, and ideal for beginners looking to explore embedded systems and home automation concepts.
-![Circuit Diagram](schematics/circuit_diagram.png)
+![Product Image](https://github.com/Arpan1906/Smart-Motion-Control/blob/main/Illustrations/1.jpg?raw=true)
 
 # Features
 

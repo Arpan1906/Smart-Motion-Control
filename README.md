@@ -45,7 +45,7 @@ To install it with existing sytem you may require a on-off switch or bed switch 
 You may find this feature usefull or waste of money. I found it useful.
 I have installed an additional toggle switch to generate two state namely STANDBY MODE & AUTO MODE. When the state is in the AUTO mode the system follows it normal operation as described in #Working but when the state is in the STANDBY mode the load or the lamp stays in ON position and will be in the position untill and unless we cut the supply or load shedding occurs or make it AUTO mode.
 Refer to the #Video Presentation for clear understanding.
-
+[Switch](https://github.com/Arpan1906/Smart-Motion-Control/blob/main/Illustrations/4.jpg?raw=true)
 # Video Presentation
 Link - [YouTube](https://youtu.be/U4pLusIxolA?si=uFR4TJKkqkDfAYvf)
 # Getting Started
